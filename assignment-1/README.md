@@ -5,5 +5,5 @@ https://securitychops.com/2019/02/02/slae64-assignment-1-shell-bind-tcp-shellcod
 3. Paste shellcode into shellcode.c
 4. compile with: **gcc shellcode.c -o shellcode -fno-stack-protector -z execstack**
 5. ./shellcode
-6. n6. c -nv ipaddress-of-host 4444
+6. nc -nv ipaddress-of-host 4444
 7. done
