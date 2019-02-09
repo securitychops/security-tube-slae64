@@ -1,6 +1,6 @@
 // Student ID   : SLAE64-1611
 // Student Name : Jonathan "Chops" Crosby
-// Assignment 1 : Reverse Shell TCP (Linux/x86_64) Assembly
+// Assignment 2 : Reverse Shell TCP (Linux/x86_64) Assembly
 // File Name    : shellcode.c
 
 #include<stdio.h>
