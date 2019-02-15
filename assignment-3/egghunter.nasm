@@ -4,7 +4,8 @@ section .text
 
 _start:
 
-xor rdx, rdx        ; zero out rdi
+xor rdx, rdx        ; zero out rdx so we have a place to
+                    ; hold our memory address
 
 setup_page:
     or  dx, 0xfff   ; setting lower 16 bits to 4095
