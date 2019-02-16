@@ -1,3 +1,8 @@
+// Student ID   : SLAE64-1611
+// Student Name : Jonathan "Chops" Crosby
+// Assignment 3 : Egg Hunter (Linux/x86_64) Assembly
+// File Name    : shellcode.c
+
 #include<stdio.h>
 #include<string.h>
 
