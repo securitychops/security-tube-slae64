@@ -1,3 +1,9 @@
+// Student ID     : SLAE64-1611
+// Student Name   : Jonathan "Chops" Crosby
+// Assignment 7   : Custom Decrypter
+// File Name      : decrypter.c
+// Derived From   : https://github.com/kokke/tiny-AES-c
+
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
