@@ -81,9 +81,5 @@ int main(void)
 
     ((void(*)())executeMe)();
 
-    //int (*ret)() = (int(*)())shellcode;
-
-    //ret();
-
     return 0;
 }
