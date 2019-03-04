@@ -19,3 +19,7 @@ Each assignment as readme with basic instructions to run.
 Each blog post has a much more detailed set of instructions:
 
 https://securitychops.com/2019/02/02/slae64-assignment-1-shell-bind-tcp-shellcode.html
+https://securitychops.com/2019/02/09/slae64-assignment-2-reverse-shell-tcp-shellcode.html
+https://securitychops.com/2019/02/16/slae64-assignment-3-egghunter-shellcode.html
+https://securitychops.com/2019/02/18/slae64-assignment-4-custom-encoder.html
+https://securitychops.com/2019/03/03/slae64-assignment-5-analysis-of-shellcode-part-1.html
