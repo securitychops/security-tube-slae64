@@ -25,3 +25,4 @@ https://securitychops.com/2019/02/18/slae64-assignment-4-custom-encoder.html
 https://securitychops.com/2019/03/03/slae64-assignment-5-analysis-of-shellcode-part-1.html
 https://securitychops.com/2019/03/04/slae64-assignment-5-analysis-of-shellcode-part-2.html
 https://securitychops.com/2019/03/07/slae64-assignment-5-analysis-of-shellcode-part-3.html
+https://securitychops.com/2019/03/09/slae64-assignment-6-polymorphic-shellcode-part-1.html
