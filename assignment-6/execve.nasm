@@ -12,7 +12,7 @@ _start:
 xor     rdx, rdx                        ; zero out rdx
 
                                         ; first change we alter 0x68732f6e69622f2f
-                                        ; to be something to decode 0x68732f6e69622f2f
+                                        ; to be something to decode 0x5073286e69622f2f
 mov     qword rbx, 0x5073286e69622f2f   ; '//bin(sP'
 shr     rbx, 0x8                        ; shift 8 places to the right
 push    rbx                             ; push /bin(sP to stack
