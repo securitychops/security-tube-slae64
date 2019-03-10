@@ -1,6 +1,6 @@
 ; Student ID     : SLAE64-1611
 ; Student Name   : Jonathan "Chops" Crosby
-; Assignment 6.1 : Polymorphic Conversion of Linux/x64 Shellcode Part Two of Three - execve("/bin/sh")
+; Assignment 6.2 : Polymorphic Conversion of Linux/x64 Shellcode Part Two of Three - execve("/bin/sh")
 ; File Name      : execve.nasm
 ; Shell Storm    : http://shell-storm.org/shellcode/files/shellcode-603.php
 
