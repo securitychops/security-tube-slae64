@@ -26,3 +26,6 @@ https://securitychops.com/2019/03/03/slae64-assignment-5-analysis-of-shellcode-p
 https://securitychops.com/2019/03/04/slae64-assignment-5-analysis-of-shellcode-part-2.html
 https://securitychops.com/2019/03/07/slae64-assignment-5-analysis-of-shellcode-part-3.html
 https://securitychops.com/2019/03/09/slae64-assignment-6-polymorphic-shellcode-part-1.html
+https://securitychops.com/2019/03/10/slae64-assignment-6-polymorphic-shellcode-part-2.html
+https://securitychops.com/2019/03/11/slae64-assignment-6-polymorphic-shellcode-part-3.html
+https://securitychops.com/2019/03/12/slae64-assignment-7-custom-crypter.html
