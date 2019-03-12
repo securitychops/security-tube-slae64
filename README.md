@@ -14,8 +14,6 @@ information related to working on the SecurityTube Linux Assembly Expert 64 (SLA
 
 https://www.pentesteracademy.com/course?id=7
 
-Each assignment as readme with basic instructions to run.
-
 Each blog post has a much more detailed set of instructions:
 
 https://securitychops.com/2019/02/02/slae64-assignment-1-shell-bind-tcp-shellcode.html
